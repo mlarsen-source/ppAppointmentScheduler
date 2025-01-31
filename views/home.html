@@ -3,43 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/calendar.png">
+  <link rel="stylesheet" href="/css/styles.css">
   <title>Appointment Scheduler</title>
 </head>
 <body>
+  <main>
+    
+    
+    <header>
+      <img src="images/calendar.png" alt="calendar"/>
+      <h1>Appointment Scheduler</h1>
+      <p>Please complete the below form to schedule an appointment</p>
+    </header>
   
-  <!-- Form 
-               action: where data will go
-               method: how it will get there 
-        -->
-        <form action="submit-order" method="post">
-            
-            
+    <form action="confirmation" method="post">
+      
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label>First Name:
+          <input type="text" name="fname">
+        </label>
+        <label>Last Name:
+          <input type="text" name="lname">
+        </label>
+      </fieldset>
 
-          <!-- Contact Info -->
-          <fieldset>
-              <legend>Contact Info</legend>
+      <fieldset>
+        <legend>Requested Appointment</legend>
+          <label>Date:
+            <input type="date" name="date">
+          </label>
+          <label>Time:
+            <input type="time" name="time">
+        </label>
+      </fieldset>
 
-              <label>First Name:
-                  <input type="text" name="fname">
-              </label>
-
-              <label>Last Name:
-                  <input type="text" name="lname">
-              </label>
-
-              <label>Date:
-                  <input type="text" name="Date">
-              </label>
-              <label>Time:
-                <input type="text" name="Time">
-            </label>
-
-          </fieldset>
-
-          <!-- Place order button -->
-          <button type="submit">Place Order</button>
-      </form>
-  </div>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
 </body>
 
 </html>

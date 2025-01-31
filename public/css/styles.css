@@ -1,0 +1,74 @@
+body
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main
+{
+  width: 40rem;
+  height: 25rem;
+  background-color: #87cdfa28;
+  box-shadow: 1px 1px 2px 2px gray;
+  padding: 1rem;
+  border-radius: .5rem;
+  margin-top: 3rem;
+}
+
+header
+{
+  margin-bottom: 3rem;
+}
+
+img
+{
+  float: left;
+  height: 6rem;
+  width: auto;
+}
+
+h1
+{
+  text-align: center;
+  margin: 0;
+  margin-top: 1rem; 
+}
+
+header p
+{
+  text-align: center;
+}
+
+
+fieldset
+{
+  margin-bottom: 2rem;
+}
+
+legend
+{
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+input
+{
+  margin-bottom: .5rem;
+}
+
+button
+{
+  float: right;
+  height: 2rem;
+  width: 5rem;
+  color: white;
+  font-weight: 550;
+  background-color: cornflowerblue;
+  border-radius: .5rem;
+  margin-right: 2rem;
+}
+
